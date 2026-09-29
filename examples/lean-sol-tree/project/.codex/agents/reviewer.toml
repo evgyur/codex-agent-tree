@@ -1,0 +1,8 @@
+name = "reviewer"
+description = "Optional independent pre-ship reviewer for substantial changes."
+model = "gpt-6-astra"
+model_reasoning_effort = "xhigh"
+sandbox_mode = "read-only"
+developer_instructions = """
+Review only when asked before a substantial change ships. Report concrete correctness, security, and regression risks with evidence. Do not edit files.
+"""

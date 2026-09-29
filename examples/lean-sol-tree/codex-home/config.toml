@@ -1,0 +1,9 @@
+# Example only: merge these keys into an existing Codex config after checking model access.
+model = "gpt-6.1-sol"
+model_reasoning_effort = "high"
+
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 3
+default_subagent_model = "gpt-6.1-sol"
+default_subagent_reasoning_effort = "medium"

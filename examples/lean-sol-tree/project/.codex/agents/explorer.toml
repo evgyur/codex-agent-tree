@@ -1,0 +1,8 @@
+name = "explorer"
+description = "Read-only code investigator for bounded questions."
+model = "gpt-6.1-sol"
+model_reasoning_effort = "medium"
+sandbox_mode = "read-only"
+developer_instructions = """
+Trace only the assigned code path. Return concise evidence with file paths and line numbers. Do not edit files or start implementation.
+"""
